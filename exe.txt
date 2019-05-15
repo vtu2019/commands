@@ -1,0 +1,53 @@
+1a) 
+lex 1.l
+cc lex.yy.c
+./a.out
+to get o/p: ctrl+d
+
+1b)
+lex 1b.l
+yacc -d 1b.y
+cc lex.yy.c y.tab.c
+./a.out
+
+2)
+lex 2.l
+yacc -d 2.y
+cc lex.yy.c y.tab.c
+./a.out
+
+3)
+cc 3.c
+./a.out
+
+4)
+cc 4.c
+./a.out
+
+5)
+cc 5.c
+./a.out
+
+6a)
+lex 1.l
+cc lex.yy.c
+./a.out 6ainfile.c 6aoutfile.c
+
+6b)
+lex 6b.l
+yacc -d 6b.y
+cc lex.yy.c y.tab.c
+./a.out 6binput.c
+
+7) 
+cc 7.c
+./a.out
+
+8)
+cc 8.c
+./a.out
+
+9)
+cc 9.c
+./a.out
+
